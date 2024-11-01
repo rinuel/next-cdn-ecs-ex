@@ -45,7 +45,7 @@ export default function TodoList() {
   return (
     <>
       <Head>
-        <title>TODO List</title>
+        <title>version 0.0.2 List</title>
       </Head>
       {isTodoLoading && <div>loading...</div>}
       {!isTodoLoading && todoList && (
